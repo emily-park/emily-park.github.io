@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Development Environment/Git
-permalink: '/DE/Git'
+permalink: '/Git/Git'
 ---
 
 Another sample category page.

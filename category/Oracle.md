@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Development Environment/Git
-permalink: '/Git/Github Blog'
+permalink: '/DB/Oracle'
 ---
 
 Another sample category page.

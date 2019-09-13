@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Development Environment/Git
-permalink: '/Git/Github Blog'
+permalink: '/Framework/Spring'
 ---
 
 Another sample category page.
