@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Development Environment/Git
+title: Java
 permalink: '/Java/Java'
 ---
 

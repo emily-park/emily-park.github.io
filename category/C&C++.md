@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Python
-permalink: '/C&Python/Python'
+title: C/C++
+permalink: '/C&Python/C&C++'
 ---
 
 Another sample category page.

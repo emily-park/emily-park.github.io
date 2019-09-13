@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Python
-permalink: '/C&Python/Python'
+title: Algorithm
+permalink: '/Basic/Algorithm'
 ---
 
 Another sample category page.

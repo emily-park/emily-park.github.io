@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Development Environment/Git
+title: Github
 permalink: '/Git/Git'
 ---
 

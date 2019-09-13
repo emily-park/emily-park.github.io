@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Development Environment/Git
+title: DB/Oracle
 permalink: '/DB/Oracle'
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Python
-permalink: '/C&Python/Python'
+title: ajax
+permalink: '/Web/ajax'
 ---
 
 Another sample category page.

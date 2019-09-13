@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Development Environment/Git
-permalink: '/Java/JSP&Servlet'
+title: JSP/Servlet
+permalink: '/Web/JSP&Servlet'
 ---
 
 Another sample category page.

@@ -1,7 +1,7 @@
 ---
 layout: category
-title: Python
-permalink: '/C&Python/Python'
+title: Operating System
+permalink: '/Basic/OS'
 ---
 
 Another sample category page.
