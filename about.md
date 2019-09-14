@@ -2,23 +2,11 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: ""
+feature-img: "assets/img/sample_feature_img_2.png"
 ---
 
-<style>
-.text{text-indent: 50px;}
-#jb-sidebar{width: 260px;padding: 20px;margin-bottom: 10px;float: left;border: 0px;text-align: right;}
-#jb-content{width: 580px;padding: 20px;margin-bottom: 10px;float: right;border: 0px;}
-@media ( min-width: 481px )
-{
-  #jb-sidebar { width: 260px; float: left; }
-  #jb-content { width: 580px; float: right; }
-}
-</style>
+Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
 
+Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
 
-<center>
-
-
-</center>
-
+This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.

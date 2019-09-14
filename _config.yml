@@ -1,11 +1,11 @@
 # SITE CONFIGURATION
-baseurl: ""
-url: "https://emily-park.github.io/"
+baseurl: "/type-theme"
+url: "https://rohanchandra.github.io/"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Emily's Blog
+  title: Type Theme
   avatar: assets/img/avatar.png
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -13,21 +13,23 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>JAVA Web Developer</p>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
   header_text_feature_image:
   footer_text: >
-   <a href="https://github.com/emily-park">github</a> & <a href="http://cafe.daum.net/howtomasterjava">Daum cafe</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
 
   # Icons
   rss: false
-  email_address: 'starryemily218@gmail.com'# Full email address, e.g. "sam@example.com"
+  email_address: # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
-  github: "emily-park"
+  github: "rohanchandra/type-theme"
   gitter:
   google_plus:
   instagram:
@@ -44,7 +46,7 @@ theme_settings:
 
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname: emily-park
+  disqus_shortname:
   katex: true # Enable if using math markup
   search: false # Enable the search feature
 
@@ -62,17 +64,10 @@ theme_settings:
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Nanum+Gothic:400,700"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: true
-
-encoding: 'utf-8'
-# Configure the plugin here
-category_path: "category" # <- default value
-category_layout: "category.html" # <- default value
-
-animation: true
+  post_navigation: false
 
 # PAGINATION
 paginate: 5
@@ -84,14 +79,7 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins:
-  - jekyll-paginate
-  - jekyll-category-pages
-gem:
-    - jekyll-sitemap
-    - jekyll-feed
-    - wdm
-theme: jekyll-theme-type
+plugins: [jekyll-paginate]
 exclude:
   - Gemfile
   - Gemfile.lock

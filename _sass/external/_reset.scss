@@ -7,7 +7,7 @@
  */
 
 html {
-  font-family: "Nanum Gothic"; /* 1 */
+  font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -136,17 +136,7 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-subtitle {
-  font-size:1.3em;
-  font-weight:700;
-  color:#C70606;
-}
 
-point {
-  font-size:1em;
-  font-weight:600;
-  color:#C70606;
-}
 /**
  * Address styling not present in IE 8/9.
  */
@@ -227,33 +217,10 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-pre code {
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  border: none;
-  background: transparent; }
-
-.highlight pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
 
 pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
   overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
-  pre code, pre tt {
-    background-color: transparent;
-    border: none; }
+}
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
