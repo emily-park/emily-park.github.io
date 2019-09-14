@@ -17,7 +17,7 @@
 		<ul>
 
 			{% for page in site_pages %}
-			{% if page.title and page.hide != true %}
+			{% if (page.title == 'About' or page.title =='Tags') and page.hide != true %}
 			<li>
 				<a class="page-link" href="{{ page.url | relative_url }}">
 					{{ page.title }}
