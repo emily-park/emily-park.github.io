@@ -15,11 +15,7 @@
 	</div>
 	<nav class="site-nav">
 		<ul>
-			{% if site.theme_settings.site_navigation_sort %}
-				{% assign site_pages = site.pages | sort: site.theme_settings.site_navigation_sort %}
-			{% else %}
-				{% assign site_pages = site.pages %}
-			{% endif %}
+
 			{% for page in site_pages %}
 			{% if page.title and page.hide != true %}
 			<li>
@@ -45,5 +41,53 @@
             {% endif %}
 		</ul>
 	</nav>
+<div class="site-category">
+			<ul class='cat1'>
+				<li><a href="/">Home</a></li>
+				<li><a href="/">Basic</a>
+					<ul>
+						<li><a href="/Basic/Data Structure">Data Structure</a></li>
+						<li><a href="/Basic/Algorithm">Algorithm</a></li>
+						<li><a href="/Basic/OS">Operating System</a></li>
+						<li><a href="/Basic/Network">Network</a></li>
+					</ul>
+				</li>
+				<li><a href="/">Java</a>
+					<ul>
+						<li><a href="/Java/Java">Java</a></li>
+					</ul>
+				</li>
+				<li><a href="/">Web</a>
+					<ul>
+						<li><a href="/Web/JSP&Servlet">JSP/Servlet</a></li>
+						<li><a href="/Web/JavaScript&jQuery">JavaScript/jQuery</a></li>
+						<li><a href="/Web/ajax">ajax</a></li>
+						<li><a href="/Web/Project">Project/Portfolio</a></li>
+					</ul>
+				</li>
+				<li><a href="/">C&Python</a>
+					<ul>
+						<li><a href="/C&Python/C&C++">C/C++</a></li>
+						<li><a href="/C&Python/Python">Python</a></li>
+					</ul>
+				</li>
+				<li><a href="/">Framework</a>
+					<ul>
+						<li><a href="/Framework/Spring">Spring</a></li>
+					</ul>
+				</li>
+				<li><a href="/">DB</a>
+					<ul>
+						<li><a href="/DB/Oracle">Oracle</a></li>
+					</ul>
+				</li>
+				<li><a href="/">Git</a>
+					<ul>
+						  <li><a href="/Git/Github Blog">Github Blog</a></li>
+						  <li><a href="/Git/Git">Github</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 
 </header>
