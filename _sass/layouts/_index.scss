@@ -16,14 +16,22 @@
   color: $header-desc-link-color
 }
 // Post listing
+.content {
+  margin-left: 400px;
+}
 .posts {
+  .post-title {
+    padding: 5% 10% 5% 10%;
+    margin: 0;
+  }
   .post-teaser {
-    @extend %padding-regular;
+    //@extend %padding-regular;
+    padding: 5% 10% 5% 10%;
     width: 100%;
     margin-bottom: 0;
     display: inline-block;
     background-size: $feature-image-size;
-    border-bottom: 1px solid $border-color;
+    //border-bottom: 1px solid $border-color;
     p a {
       @extend .body-link;
     }

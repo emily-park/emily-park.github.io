@@ -1,5 +1,7 @@
 .site-footer {
-  @extend %padding-regular;
+  margin-left: 0px;
+  padding: 5% 10% 5% 10%
+  //@extend %padding-regular;
   display: inline-block;
   text-align: center;
   width: 100%;
